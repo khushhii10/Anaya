@@ -1,0 +1,36 @@
+.help1{
+    margin-top: 110px auto;
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background: #000067;
+}
+.help1-col{
+    flex-basis: 48%;
+    color: #daba00;
+    font-weight:500;
+    padding: 20px; 
+}
+.help1-col h4{
+    color:#daba00;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.help1-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+
+@media (max-width:700px){
+    .help1{
+        display: block;
+    }
+    .help1-col{
+        padding: 20px;
+    }
+}

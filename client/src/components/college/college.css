@@ -1,0 +1,33 @@
+.college {
+    background-color: cornsilk; 
+    width: 100%;
+    box-sizing: border-box; 
+    overflow: hidden; 
+    display: flex; 
+    justify-content: center; 
+    align-items:center; 
+     /* added to align images */
+  }
+  
+  .college img {
+    width: 380px;
+    height: 220px;
+    background: none; /* removed background */
+    margin: 20px; /* added margin for spacing */
+    padding:5px;
+   
+  }
+  @media (max-width: 900px) {
+    .college {
+      flex-direction: column; /* stack images in a column */
+      align-items: center; /* center images horizontally */
+      border-radius: 10% black!important;
+    }
+  
+    .college img {
+      width: 30%; /* reduce width for tablets */
+      height: auto; /* maintain aspect ratio */
+    }
+  }
+  
+  

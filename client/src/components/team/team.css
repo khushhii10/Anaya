@@ -1,0 +1,120 @@
+/* team.css */
+
+.teams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.team{
+    flex-basis: 25%;
+    margin: 10px auto;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 200px;
+}
+  .card {
+    width: 270px;
+    height: 300px;
+    border: 3px solid rgb(118, 0, 141);
+    border-radius: 200px;
+    margin: 10px auto;
+    padding:1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+.card-back{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: azure;
+    background: #090051;
+}
+
+.linkedin-icon {
+    font-size: 24px; /* Adjust size as needed */
+    color: #0077b5; /* LinkedIn blue */
+    margin-top: 10px; /* Example margin */
+  }
+
+
+  @media (max-width: 1200px) {
+    .team {
+        flex-basis: 33.33%; /* 3 cards per row */
+    }
+
+    .card {
+        width: 240px;
+        height: 270px;
+    }
+}
+
+@media (max-width: 992px) {
+  .teams {
+    flex-direction: row; /* Switch to column layout */
+    align-items: center;
+}
+    .team {
+        flex-basis: 48%; /* 2 cards per row */
+    }
+
+    .card {
+        width: 180px;
+        height: 210px;
+    }
+
+    .card img {
+        border-radius: 180px;
+    }
+
+    .card-back {
+        border-radius: 180px;
+    }
+}
+
+@media (max-width: 700px) {
+    .teams {
+        flex-direction: column; /* Switch to column layout */
+        align-items: center;
+    }
+
+    .team {
+        flex-basis: 100%; /* 1 card per row */
+        margin:auto;
+    }
+
+    .card {
+        width: 180px;
+        height: 210px;
+    }
+
+    .card img {
+        border-radius: 160px;
+    }
+
+    .card-back {
+        border-radius: 160px;
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        width: 150px;
+        height: 180px;
+    }
+
+    .card img {
+        border-radius: 140px;
+    }
+
+    .card-back {
+        border-radius: 140px;
+    }
+
+    .linkedin-icon {
+        font-size: 20px; /* Adjust size for smaller screens */
+    }
+}

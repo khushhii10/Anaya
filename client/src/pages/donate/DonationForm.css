@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #F8EDE3;
+}
+
+.App {
+  background-color: #B692C2; /* Blue background */
+  padding: 105px;
+  max-width: 700px;
+  margin: 40px auto;
+  border-radius: 8px;
+  color: white;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+.donation-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"],
+.form-group select,
+.form-group textarea {
+  width: calc(100% - 12px);
+  padding: 6px;
+  border-radius: 4px;
+  border: none;
+  font-size: 14px;
+}
+
+.form-group input[type="radio"] {
+  margin-right: 10px;
+}
+
+.radio-group label {
+  margin-right: 20px;
+}
+
+textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+button {
+  background-color: white;
+  color: #007BFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.submission-message {
+  text-align: center;
+  background-color: white;
+  color: #007BFF;
+  padding: 60px;
+  border-radius: 8px;
+}
+
+.thank-you-message {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.thank-you-message h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+}
+
+.thank-you-message p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.tick-icon {
+  font-size: 50px;
+  color: #4caf50;
+  margin-bottom: 20px;
+}

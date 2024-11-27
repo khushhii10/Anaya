@@ -1,0 +1,42 @@
+.pehli{
+text-align: center;
+color: #959595;
+}
+.programs{
+    margin: 0 auto 50px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.program img{
+   width: 100%;
+   border-radius: 10px;
+   display: block;
+}
+.program{
+    flex-basis: 48%;
+    padding:0 0 20px 0;
+    /*background: rgba(0, 15, 152, 0.219); */
+    background: #090051;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.caption{
+    padding: 10px; 
+}
+
+
+@media (max-width:750px){
+    .programs{
+        flex-direction: column;
+    }
+    .program{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
